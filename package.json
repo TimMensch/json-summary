@@ -2,8 +2,19 @@
   "name": "json-summary",
   "version": "1.0.0",
   "description": "A lossy JavaScript object printer, useful for logging, that shows some, but not all, of an object.",
-  "main": "index.js",
+  "main": "lib/src/index.js",
+  "types": "lib/src/index.d.ts",
   "repository": "https://github.com/TimMensch/json-summary.git",
   "author": "Tim Mensch",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node lib/src/index.js"
+  },
+  "dependencies": {
+    "typescript": "^2.7.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.102"
+  }
 }

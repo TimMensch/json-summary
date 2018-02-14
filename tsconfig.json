@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "declaration": true,
+        "declarationDir": "./lib",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": false,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "newLine": "LF",
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitUseStrict": false,
+        "noLib": false,
+        "noUnusedLocals": true /* Report errors on unused locals. */,
+        "outDir": "./lib",
+        "preserveConstEnums": true,
+        "removeComments": false,
+        "rootDir": "./",
+        "skipDefaultLibCheck": true,
+        "sourceMap": true,
+        "strict": true /* Enable all strict type-checking options. */,
+        "stripInternal": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "target": "es2015",
+        "traceResolution": false
+    },
+    "exclude": ["node_modules", "lib"],
+    "lib": ["es6"],
+    "typeRoots": ["./node_modules/@types", "./node_modules", "./typings"]
+}
