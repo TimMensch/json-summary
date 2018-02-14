@@ -1,0 +1,9 @@
+{
+  "name": "json-summary",
+  "version": "1.0.0",
+  "description": "A lossy JavaScript object printer, useful for logging, that shows some, but not all, of an object.",
+  "main": "index.js",
+  "repository": "https://github.com/TimMensch/json-summary.git",
+  "author": "Tim Mensch",
+  "license": "MIT"
+}
